@@ -1,0 +1,58 @@
+.box-filtroNotaCorte{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 16px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    width: 100%;
+    margin: 10px auto; 
+}
+.box-filtroNotaCorte form {
+    display: flex;
+    gap: 15px;
+}
+select, .ButtonNotaCorte{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #dddddd;
+    border-radius: 8px; 
+    font-size: 16px;
+    color: #333333;
+    background-color: #ffffff;
+    appearance: none; 
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+select:focus, .ButtonNotaCorte:focus {
+    border-color: #3498db; 
+    box-shadow: 0 0 0 2px rgba(40, 146, 181, 0.2); 
+}
+.ButtonNotaCorte {
+    background-color: #3498db; 
+    width: 26%;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+.box-filtroNotaCorte button:hover {
+    background-color: #2980b9;
+}
+.box-filtroNotaCorte form #ano {
+   width: 10%;
+}
+.box-filtroNotaCorte form #curso {
+    width: 60%;
+}
+.titulo-notaCorte{
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff; 
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #3498db; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}

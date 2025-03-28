@@ -1,0 +1,6 @@
+.box-filtroNotaCorte #modConcorrencia{
+    text-overflow: ellipsis;
+}
+.box-filtroNotaCorte #curso{
+    text-overflow: ellipsis
+}

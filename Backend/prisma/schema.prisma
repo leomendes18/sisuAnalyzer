@@ -1,0 +1,120 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model sisu2016 {
+  id             Int     @id @default(autoincrement())
+  ano            Int?
+  edicao         Int?
+  uf_campus      String?
+  codigo_curso   Int?
+  nome_curso     String?
+  grau           String?
+  sexo           String?
+  nota_candidato Float?  @db.Real
+  nota_corte     Float?  @db.Real
+  aprovado       String?
+}
+
+model sisu2017 {
+  id             Int     @id @default(autoincrement())
+  ano            Int?
+  edicao         Int?
+  uf_campus      String?
+  codigo_curso   Int?
+  nome_curso     String?
+  grau           String?
+  sexo           String?
+  nota_candidato Float?  @db.Real
+  nota_corte     Float?  @db.Real
+  aprovado       String?
+}
+
+model sisu2018 {
+  id             Int     @id @default(autoincrement())
+  ano            Int?
+  edicao         Int?
+  uf_campus      String?
+  codigo_curso   Int?
+  nome_curso     String?
+  grau           String?
+  sexo           String?
+  nota_candidato Float?  @db.Real
+  nota_corte     Float?  @db.Real
+  aprovado       String?
+}
+
+model sisu2019 {
+  id             Int     @id @default(autoincrement())
+  ano            Int?
+  edicao         Int?
+  uf_campus      String?
+  codigo_curso   Int?
+  nome_curso     String?
+  grau           String?
+  sexo           String?
+  nota_candidato Float?  @db.Real
+  nota_corte     Float?  @db.Real
+  aprovado       String?
+}
+
+model sisu2020 {
+  id             Int     @id @default(autoincrement())
+  ano            Int?
+  edicao         Int?
+  uf_campus      String?
+  codigo_curso   Int?
+  nome_curso     String?
+  grau           String?
+  sexo           String?
+  nota_candidato Float?  @db.Real
+  nota_corte     Float?  @db.Real
+  aprovado       String?
+}
+
+model sisu2021 {
+  id             Int     @id @default(autoincrement())
+  ano            Int?
+  edicao         Int?
+  uf_campus      String?
+  codigo_curso   Int?
+  nome_curso     String?
+  grau           String?
+  sexo           String?
+  nota_candidato Float?  @db.Real
+  nota_corte     Float?  @db.Real
+  aprovado       String?
+}
+
+model sisu2022 {
+  id             Int     @id @default(autoincrement())
+  ano            Int?
+  edicao         Int?
+  uf_campus      String?
+  codigo_curso   Int?
+  nome_curso     String?
+  grau           String?
+  sexo           String?
+  nota_candidato Float?  @db.Real
+  nota_corte     Float?  @db.Real
+  aprovado       String?
+}
+
+model sisu2023 {
+  id             Int     @id @default(autoincrement())
+  ano            Int?
+  edicao         Int?
+  uf_campus      String?
+  codigo_curso   Int?
+  nome_curso     String?
+  grau           String?
+  nota_candidato Float?  @db.Real
+  nota_corte     Float?  @db.Real
+  aprovado       String?
+  sexo           String?
+}
